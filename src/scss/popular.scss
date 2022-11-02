@@ -1,0 +1,82 @@
+.popular {
+  padding: 120px 0 81px;
+
+  &__content {
+    text-align: center;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+    color: #0F303F;
+    margin-bottom: 75px;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+    flex-wrap: wrap;
+  }
+
+  &__card {
+    width: calc(25% - 33.75px);
+
+    &-img {
+      width: 100%;
+
+    }
+
+    &-title {
+      margin-top: 29px;
+      font-family: 'Jost';
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #0F303F;
+    }
+
+    &-desc {
+      font-family: 'Jost';
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 23px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #0F303F;
+      margin-bottom: 6px;
+    }
+
+    &-price {
+      font-family: 'Jost';
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 0.045em;
+      text-transform: uppercase;
+      color: #FD5454;
+    }
+  }
+
+  &__bottom {
+    margin-top: 95px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+
+    &-line {
+      width: 635px;
+      height: 1px;
+      background: #EAE9E8;
+    }
+  }
+}

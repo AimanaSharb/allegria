@@ -1,0 +1,49 @@
+.aboutUs{
+  background:  #254A5A;
+  padding: 132px 0 137px;
+  &__content{
+    width: 45%;
+    position: relative;
+    &::before{
+      content: url("../assets/aboutUs/Ellipse 6.svg");
+      position: absolute;
+      top: -50%;
+      right: -15%;
+    }
+    &::after{
+      content: url("../assets/aboutUs/Rectangle 7.svg");
+      position: absolute;
+      top: -55%;
+      right: -15%;
+
+    }
+  }
+  &__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 85%;
+    //letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #EAE9E8;
+    margin-bottom: 20px;
+    &-o{
+      font-size: 30px;
+    }
+  }
+  &__desc{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+  }
+  &__img{
+    position: absolute;
+    top: -30%;
+    right: -100%;
+  }
+
+}

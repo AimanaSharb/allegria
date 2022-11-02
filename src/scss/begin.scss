@@ -1,0 +1,44 @@
+.begin{
+
+  &__content{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    padding: 182px 0 275px;
+
+
+  }
+  &__img{
+    position: absolute;
+    width:100%;
+    max-width: 1500px;
+  top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  &__title{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EAE9E8;
+    margin-bottom: 35px;
+    &-small{
+      font-size: 20px;
+    }
+  }
+  &__link{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+
+    /* 3 */
+
+    color: #EAE9E8;
+  }
+}
